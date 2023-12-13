@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Middleware to use modular routes to deal with certain kinds of requests
-app.use('api/', apiRoutes);
+app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 // Start the server
