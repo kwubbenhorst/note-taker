@@ -1,23 +1,6 @@
 [
     {
-        "title":"Call bank on Friday",
-        "text":"Arrange appointment with adviser for reinvestment of matured GICs"
-    },
-    {
-        "title":"Reschedule delivery",
-        "text":"Arrange with UPS for second delivery attempt on Sat morning"
-    },
-    {
-        "title":"Finish payroll",
-        "text":"Finish by Friday at 3pm"
-    },
-    {
-        "title":"Check in with clients",
-        "text":"Email Meal Suite and Sunbeam Thurs morning for feedback on MVP"
-    },
-    {
-        "title":"Client lunch on Thursday",
-        "text":"Romeros 1pm meet with Adrian LaFontaine, development officer at Knox College re: new enrollment app"
+        "title":"Test Title",
+        "text":"Test text"
     }
-
 ]
