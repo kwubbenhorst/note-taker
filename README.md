@@ -29,22 +29,22 @@ Web deployment means that the app is ready to use if the user has access to any 
 On load the user will be brought to the landing page from which they need to click "Get Started". From the notes page of the application the user can always navigate back to the landing page by clicking "Note Taker" in the top left of the nav bar.  Otherwise, usage is as in the description.  Here are some screenshots which capture the application's flow, or watch the video walkthrough at the links below.
 
 Landing page.  When a user opens the Note Taker, they are presented with a landing page with a link to a notes page.
-![Screen Shot 2023-12-18 at 10 46 22 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/7d3dccdf-e57c-4ad5-af47-ad6d6f83e539)
+![Screen Shot 2023-12-18 at 10 46 22 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/d10f1adf-8b28-4c5e-8dc6-e5caee8124b0)
 
 The first time the application runs it will present a screen with no saved notes. Subsequently when a user clicks on the link to the notes page, they will be presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column. The saved notes in the left-hand column will persist from session to session, at least in the Heroku version of the app. 
-![Screen Shot 2023-12-18 at 10 46 50 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/7905dafe-a1de-4743-992d-32c440aa69dc)
+![Screen Shot 2023-12-18 at 10 46 50 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/c420fb4b-4452-402a-b8cc-5917e8ad557d)
 
 When a user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page. 
-![Screen Shot 2023-12-18 at 10 48 34 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/420b4f9a-c289-4054-a984-d75575cac521)
+![Screen Shot 2023-12-18 at 10 48 34 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/896ae08b-66fd-464e-a7e9-175032fecddc)
 
 When a user clicks the Save icon, the new note they've entered is saved and appears in the left-hand column with the other existing notes
-![Screen Shot 2023-12-18 at 10 50 28 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/848cb2a2-6352-4425-bcb3-241e1d5217ef)
+![Screen Shot 2023-12-18 at 10 50 51 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/42a31d76-cdf2-4593-b982-bac2811f8abf)
 
 When a user clicks on an existing note in the list in the left-hand column, that note appears in the right-hand column
-![Screen Shot 2023-12-18 at 10 50 51 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/dcb79869-6397-4b05-9c7d-a8d3b30f0666)
+![Screen Shot 2023-12-18 at 10 50 28 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/5030ecac-347d-4a92-bb62-03bde10a5670)
 
 The text area can always be cleared by clicking the write icon (+) at the top right of the navigation. Existing notes can also be deleted by clicking on their associated trash can icon.
-![Screen Shot 2023-12-18 at 10 48 34 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/1e548772-6d27-4f41-b9c4-723b2b2afbab)
+![Screen Shot 2023-12-18 at 10 50 02 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/bdcfb369-d69c-408c-8f75-432e95e846d3)
 
 To see a dynamic presentation of the application's functionality, a walkthrough video may be viewed via this link on googledrive:
 https://drive.google.com/file/d/1c5Olx2g36JbTn7ieL-g4XTkAO3F2P5Uo/view?usp=sharing
