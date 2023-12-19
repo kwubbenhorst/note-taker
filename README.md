@@ -26,13 +26,27 @@ Since Heroku no longer offers any free cloud hosting, I wanted to host this appl
 Web deployment means that the app is ready to use if the user has access to any browser. The node_modules folder and package.json file which live within the Github repo to which deployment is linked, provide the necessary dependencies.
 
 ## Usage
-On load the user will be brought to the landing page from which they need to click "Get Started". From the notes page of the application the user can always navigate back to the landing page by clicking "Note Taker" in the top left of the nav bar.  Otherwise, usage is as in the description.  Here are some screenshots which capture the application's flow, or watch the video walkthrough at the link below.
+On load the user will be brought to the landing page from which they need to click "Get Started". From the notes page of the application the user can always navigate back to the landing page by clicking "Note Taker" in the top left of the nav bar.  Otherwise, usage is as in the description.  Here are some screenshots which capture the application's flow, or watch the video walkthrough at the links below.
 
+Landing page.  When a user opens the Note Taker, they are presented with a landing page with a link to a notes page.
+![Screen Shot 2023-12-18 at 10 46 22 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/7d3dccdf-e57c-4ad5-af47-ad6d6f83e539)
 
+The first time the application runs it will present a screen with no saved notes. Subsequently when a user clicks on the link to the notes page, they will be presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column. The saved notes in the left-hand column will persist from session to session, at least in the Heroku version of the app. 
+![Screen Shot 2023-12-18 at 10 46 50 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/7905dafe-a1de-4743-992d-32c440aa69dc)
 
+When a user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page. 
+![Screen Shot 2023-12-18 at 10 48 34 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/420b4f9a-c289-4054-a984-d75575cac521)
 
+When a user clicks the Save icon, the new note they've entered is saved and appears in the left-hand column with the other existing notes
+![Screen Shot 2023-12-18 at 10 50 28 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/848cb2a2-6352-4425-bcb3-241e1d5217ef)
 
-The walkthrough video may be viewed via this link on googledrive:
+When a user clicks on an existing note in the list in the left-hand column, that note appears in the right-hand column
+![Screen Shot 2023-12-18 at 10 50 51 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/dcb79869-6397-4b05-9c7d-a8d3b30f0666)
+
+The text area can always be cleared by clicking the write icon (+) at the top right of the navigation. Existing notes can also be deleted by clicking on their associated trash can icon.
+![Screen Shot 2023-12-18 at 10 48 34 PM](https://github.com/kwubbenhorst/note-taker/assets/140316693/1e548772-6d27-4f41-b9c4-723b2b2afbab)
+
+To see a dynamic presentation of the application's functionality, a walkthrough video may be viewed via this link on googledrive:
 https://drive.google.com/file/d/1c5Olx2g36JbTn7ieL-g4XTkAO3F2P5Uo/view?usp=sharing
 Or via this link in Bootcamp Spot's Studio library:
 https://bootcampspot.instructuremedia.com/embed/6abe48b3-55e3-4178-8978-f367a477dc5d
